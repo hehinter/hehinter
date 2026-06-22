@@ -1,0 +1,67 @@
+# Hehinter Website Robots.txt
+# Hehuang International Trade (Huizhou) Co., Ltd.
+
+# Allow all crawlers access to all content
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://hehinter.com/sitemap.xml
+
+# Crawl delay (optional, be considerate to the server)
+Crawl-delay: 1
+
+# Block access to certain files and directories
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Disallow: /images/icons/
+Disallow: /images/backgrounds/
+
+# Allow important pages
+Allow: /css/main.css
+Allow: /css/animations.css
+Allow: /js/main.js
+
+# Block common bot traps
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /app-ads.txt
+
+# Specific bot directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
